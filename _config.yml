@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Senzcr - Awesome Code"
+title                    : "Senzcr"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "Awesome repository of code"
+name                     : "R.A. Joseph"
+description              : "Learn to Code"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -290,3 +290,12 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
